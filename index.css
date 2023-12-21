@@ -91,3 +91,16 @@ body {
   font-size: larger;
   margin-top: -6px;
 }
+
+/* footer */
+
+.better a {
+  text-decoration: none;
+}
+
+.better {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
