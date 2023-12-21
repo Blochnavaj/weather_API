@@ -5,7 +5,6 @@ async function chechWeather() {
     "http://api.weatherapi.com/v1/current.json?key=1c1cc450f0514651b64112623232012&q=" +
     city +
     "&aqi=no";
-
   const response = await fetch(apiUrl + "&appid=${apiKey}");
   var data = await response.json();
 
